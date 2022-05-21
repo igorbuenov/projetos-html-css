@@ -1,0 +1,53 @@
+.banner-fundo{
+    background-image: url(../assets/img-fundo.jpg);
+    height: 28vh;
+}
+
+.quartos2{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    line-height: 50px;
+}
+
+.quartos2 h2{
+    text-transform: uppercase;
+}
+
+.quartos-informacao{
+    max-width: 1024px;
+    margin: 0 auto ;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-quarto{
+    width: 33%;   
+}
+
+.img-quarto img{
+   height: 245.75px;
+   width: 100%;
+}
+.informacoes-quartos{
+    max-width: 1024px;
+    margin: 30px auto;
+}
+.informacoes-quartos h3{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.informacoes-quartos ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.informacoes-quartos ul li{
+    width: 25%;
+    padding-bottom: 10px;
+}
